@@ -1,0 +1,44 @@
+footer {
+    position: relative; 
+    margin-top: -41px; 
+    height: 40px; 
+    border-top: solid 1px #dee0ee;
+    font-size: 10px;
+    font-weight: 300;
+    color: #929bbd;
+
+    &.with_data {
+        margin-top: -71px; 
+        height: 70px; 
+    }
+
+    .centered {
+        margin-top: -16px;
+
+        .left {
+            width: 693px;
+            float: left;
+            padding-left: 20px;
+
+            p {
+                font-size: 8px;
+                line-height: 10px;
+                padding-top: 10px;
+            }
+        }
+        
+        .right {
+            width: 75px;
+            float: right;
+            text-align: right;
+
+            .logo {
+                padding-top: 9px;
+                
+                img {
+                    float: right;
+                }
+            }
+        }
+    }
+}
